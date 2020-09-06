@@ -1,0 +1,6 @@
+<div class="jumbotron">
+  <div class="container d-flex  justify-content-center">
+    <input class="mr-2" type="text" #query (keydown.enter)="submit(query.value)">
+    <button (click)="submit(query.value)" class="btn btn-primary">Search</button>
+  </div>
+</div>
